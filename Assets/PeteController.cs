@@ -5,8 +5,8 @@ using UnityEngine;
 public class PeteController : MonoBehaviour
 {
 
-    [SerializeField] float turn; 
-    [SerializeField] float speed;
+    float turn; 
+    float speed;
     Animator anim;
     // Start is called before the first frame update
     void Start()
